@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>VGG16で犬猫判別</title>
+</head>
+<body>
+  <form method="post" action="/send" enctype="multipart/form-data">
+    <input type="file" id="img_file" name="img_file">
+    <input type="submit" value="送信">
+  </form>
+  <p>
+  {% if raw_img_url %}
+    <img src="{{ raw_img_url }}">
+    <br>
+    [判定結果]
+    <br>
+    {{p}}%の確率で{{judge}}です。
+  {% endif %}
+  </p>
+</body>
+</html>
