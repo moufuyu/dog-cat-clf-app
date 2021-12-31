@@ -6,7 +6,8 @@ ImageNetで重み付けされたVGG16を用いて、犬と猫のデータセッ�
 生成したモデルをapp.py内で読み込み、Flaskを用いてWebアプリケーションを構築した。
 
 # 実行方法
-python app.py でプログラムを実行し、出力で指定されたアドレスにアクセスする。  
+python app.py でプログラムを実行し、以下の画像のように出力で指定されたアドレスにアクセスする。  
+<img width="631" alt="image" src="https://user-images.githubusercontent.com/62968285/147832610-6eb0bdbd-558e-40c7-9382-e2ea7b93497f.png">  
 
 # アプリケーションの実行結果
 ・猫の画像をアップロード  
