@@ -3,13 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <title>VGG16で犬猫判別</title>
+    <link rel="stylesheet" href="static/css/style.css">
 </head>
 <body>
-  <form method="post" action="/send" enctype="multipart/form-data">
-    <input type="file" id="img_file" name="img_file">
-    <input type="submit" value="送信">
-  </form>
-  <p>
+  <h1 style = "text-align: center">
+    犬か猫かをAIが判定します。
+  </h1>
+  <div style = "text-align: center">
+     <form method="post" action="/send" enctype="multipart/form-data">
+      <input type="file" id="img_file" name="img_file">
+      <input type="submit" value="送信">
+    </form>
+  </div>
+  <p style = "text-align: center">
   {% if raw_img_url %}
     <img src="{{ raw_img_url }}">
     <br>
