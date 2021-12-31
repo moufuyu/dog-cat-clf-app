@@ -18,5 +18,5 @@ python app.py でプログラムを実行し、以下の画像のように出力
   
 ・犬の画像をアップロード  
 
-<img width="367" alt="image" src="https://user-images.githubusercontent.com/62968285/147760396-30653e49-2d14-45ef-ac23-325d05ab17ab.png">
+<img width="959" alt="image" src="https://user-images.githubusercontent.com/62968285/147834548-11f704aa-0977-4cb0-9ace-a6290e4c96b4.png">
 
