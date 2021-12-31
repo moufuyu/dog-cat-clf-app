@@ -14,7 +14,7 @@ python app.py でプログラムを実行し、以下の画像のように出力
 # アプリケーションの実行結果
 ・猫の画像をアップロード  
 
-<img width="317" alt="スクリーンショット 2021-12-30 230237" src="https://user-images.githubusercontent.com/62968285/147758775-663e6593-a4d4-4c65-9e58-ab8271aabff3.png">  
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/62968285/147834507-fe5e767b-d8f7-4f2e-83c2-2fabc274afbc.png">  
   
 ・犬の画像をアップロード  
 
